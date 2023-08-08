@@ -1,0 +1,436 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.header-wrapper {
+  width: 100%;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+}
+
+.container {
+  width: 90%;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.container a {
+  text-decoration: none;
+}
+
+.logo p {
+  font-size: 1.4rem;
+  color: brown;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.ul-link {
+  display: flex;
+  flex-direction: row;
+  gap: 2.4rem;
+  align-items: center;
+}
+
+.ul-link a {
+  text-decoration: none;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  color: black;
+}
+
+.ul-link li {
+  list-style: none;
+}
+
+.btn a {
+  color: white;
+}
+
+button {
+  border: none;
+  background-color: brown;
+  color: white;
+  padding: 0.8rem 2rem;
+  border-radius: 10px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 0.9rem;
+  transition: ease-in-out 0.7s;
+  cursor: pointer;
+}
+
+button:hover {
+  text-decoration: underline;
+  transition: ease-in-out 0.7s;
+}
+
+.hero {
+  width: 100%;
+  padding-top: 10rem;
+}
+
+.hero-wrapper {
+  width: 90%;
+  margin: 0 auto;
+}
+
+.content {
+  width: 50%;
+}
+
+.content p {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 2.4rem;
+}
+
+.content .name {
+  color: brown;
+}
+
+.content .pee {
+  font-size: 1rem;
+  line-height: 1.7rem;
+  width: 100%;
+  margin-top: 1.5rem;
+  margin-bottom: 2rem;
+  opacity: 0.8;
+  letter-spacing: 0.6px;
+}
+
+.content a {
+  text-decoration: none;
+}
+
+.hero-btn {
+  border: none;
+  background-color: brown;
+  color: white;
+  padding: 0.8rem 2rem;
+  border-radius: 10px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 0.9rem;
+  transition: ease-in-out 0.7s;
+  cursor: pointer;
+}
+
+.hero-btn:hover {
+  text-decoration: underline;
+  transition: ease-in-out 0.7s;
+}
+
+hr {
+  width: 90%;
+  margin: 0 auto;
+  margin-top: 8rem;
+}
+
+.about {
+  margin-top: 10rem;
+  width: 100%;
+  padding-bottom: 2rem;
+}
+
+.about-wrapper {
+  width: 90%;
+  margin: 0 auto;
+
+}
+
+.about-content p {
+  font-family: Verdana, Genexva, Tahoma, sans-serif;
+  font-size: 2.4rem;
+}
+
+.about-content .myself {
+  font-size: 1rem;
+  width: 60%;
+  line-height: 1.6rem;
+  letter-spacing: 0.6px;
+  opacity: 0.8;
+  margin-top: 1.8rem;
+
+}
+
+.about-wrapper a {
+  color: brown;
+}
+
+.icons {
+  display: flex;
+  flex-direction: row;
+  gap: 2.2rem;
+  font-size: 1.5rem;
+  margin-top: 1.5rem;
+  text-decoration: none;
+  list-style-type: none;
+}
+
+.icons a:hover {
+  text-decoration: none;
+}
+
+.skills {
+  width: 100%;
+  margin-top: 10rem;
+  padding-bottom: 5rem;
+}
+
+.skills-wrapper {
+  width: 90%;
+  margin: 0 auto;
+}
+
+.skills-content p {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 2.4rem;
+}
+
+.skills-cards {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  gap: 2rem;
+}
+
+.card1 {
+  width: 14%;
+  padding: 1.4rem 1rem;
+  border-radius: 5px;
+  margin-top: 3rem;
+  text-align: center;
+  border: 1px solid brown;
+  cursor: pointer;
+  transition: all ease-in-out 0.3s;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  opacity: 0.8;
+}
+
+.card1 p {
+  width: 100%;
+}
+
+.card1:hover {
+  box-shadow: 10px 10px 62px -28px rgba(0, 0, 0, 0.75);
+  opacity: 9;
+}
+
+.summary {
+  width: 100%;
+  margin-top: 5rem;
+  margin-bottom: 5rem;
+}
+
+.summary-wrapper {
+  width: 90%;
+  margin: 0 auto;
+}
+
+.summary-content {
+  width: 80%;
+  margin: 0 auto;
+  border: 2px solid #f0eded;
+  box-shadow: 10px 10px 62px -28px rgba(0, 0, 0, 0.75);
+  background-color: #fff;
+  padding-top: 3rem;
+  padding-bottom: 3rem;
+  border-radius: 8px;
+  align-items: center;
+  padding-left: 1rem;
+}
+
+.summary-content p {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 1.7rem;
+}
+
+.summary-content .summary-pee {
+  font-size: 1rem;
+  margin-top: 1rem;
+  opacity: 0.8;
+  line-height: 1.6rem;
+  letter-spacing: 0.6px;
+}
+
+.contact {
+  margin-top: 10rem;
+  width: 100%;
+  margin-bottom: 5rem;
+}
+
+.contact-content {
+  width: 90%;
+  margin: 0 auto;
+}
+
+.contact-content p {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 2.4rem;
+}
+
+.contact-content .cont-pee {
+  font-size: 1rem;
+  margin-top: 1rem;
+  opacity: 0.8;
+  margin-bottom: 1rem;
+}
+
+.contact-content a {
+  text-decoration: none;
+  font-size: 1rem;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  color: brown;
+}
+
+.contact-content a:hover {
+  border-bottom: 1px solid brown;
+}
+
+.cont-icon a {
+  font-size: 1.4rem;
+  color: brown;
+}
+
+.cont-icon a:hover {
+  border: none;
+}
+
+.dark-mode {
+  color: black;
+}
+
+.dark-mode body {
+  background-color: black;
+  color: white;
+}
+
+.dark-mode .summary-content {
+  background-color: black;
+  color: white;
+}
+
+.dark-mode .dark-mode {
+  color: #fff;
+  width: 2%;
+}
+
+#dark {
+  font-size: 2.1rem;
+  font-weight: lighter;
+  cursor: pointer;
+  margin-top: 6rem;
+  margin-left: -6px;
+}
+
+
+@media screen and (max-width: 1024px) {
+  .hero-wrapper .content {
+    width: 70%;
+  }
+
+  .about-wrapper .about-content p {
+    width: 90%;
+  }
+
+  .summary-wrapper .summary-content {
+    width: 100%;
+  }
+}
+
+@media screen and (max-width:1050px) {
+  .skills-cards {
+    width: 100%;
+  }
+
+  .card1 {
+    width: 30%;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .ul-link {
+    display: none;
+  }
+
+  .hero-wrapper .content {
+    width: 90%;
+  }
+
+  .about-wrapper .about-content p {
+    width: 100%;
+  }
+}
+
+@media screen and (max-width: 450px) {
+  .hero-wrapper .content {
+    width: 100%;
+  }
+
+  .hero-wrapper .content p {
+    font-size: 2rem;
+  }
+
+  .hero-wrapper .content .pee {
+    font-size: 0.87rem;
+  }
+
+  .about-wrapper .about-content p {
+    width: 100%;
+    font-size: 1.9rem;
+  }
+
+  .about-wrapper .about-content .myself {
+    font-size: 0.87rem;
+  }
+
+  .skills-wrapper .skills-content p {
+    font-size: 2rem;
+  }
+
+  .skills-cards {
+    gap: 1rem;
+  }
+
+  .card1 {
+    width: 40%;
+  }
+
+  .card1 p {
+    font-size: 0.87rem;
+  }
+
+  .summary-wrapper .summary-content .summary-pee {
+    font-size: 0.87rem;
+  }
+
+  .contact-content p {
+    font-size: 2rem;
+  }
+}
+
+@media screen and (max-width: 375px) {
+  .skills-cards {
+    gap: 0rem;
+  }
+
+  .card1 {
+    width: 100%;
+  }
+
+  .contact-wrapper {
+    width: 100%;
+    text-align: center;
+  }
+
+  .contact-content .cont-pee {
+    font-size: 0.87rem;
+  }
+
+  .cont-icons {
+    width: 100%;
+    text-align: center;
+    align-items: center;
+  }
+}
